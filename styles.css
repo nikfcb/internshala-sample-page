@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 25px;
+  font-weight: bold;
+}
+
+#bluebox {
+  color: white;
+  background-color: blue;
+  padding: 15px;
+  margin-right: 5px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearbox {
+  clear: both;
+  height: 0;
+  border: 0;
+}
+
+main .main-left {
+  margin-top: 100px;
+  float: left;
+  margin-left: 90px;
+}
+
+main .main-right {
+  float: right;
+}
+
+main .newButtons {
+  display: flex;
+}
+
+.newButtons p {
+  margin-left: 15px;
+}
+
+#normal-text {
+  padding: 15px;
+}
+
+#start-button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  background-color: blue;
+  border-radius: 15px;
+}
+
+.color {
+  color: blue;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 35%;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
+
+.bottom-bar {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h5 {
+  color: blue;
+  text-align: justify;
+}
+
+figure figcaption {
+  text-align: justify;
+}
+
+figure h3 {
+  text-align: justify;
+}
+
+figure p {
+  text-align: justify;
+}
